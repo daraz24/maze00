@@ -231,9 +231,9 @@ document.getElementById('solve-btn').addEventListener('click', solveMaze);
 
 const canvas = document.getElementById('maze-canvas');
 const ctx = canvas.getContext('2d');
-const mazeWidth = 10;
-const mazeHeight = 10;
-const cellSize = 30;
+const mazeWidth = 30;
+const mazeHeight = 30;
+const cellSize = 20;
 canvas.width = mazeWidth * cellSize;
 canvas.height = mazeHeight * cellSize;
 
